@@ -21,6 +21,8 @@ end
     new_post.author = self 
   end
 
+def add_post_by_title(name)
+
   def self.post_count
     Post.all.count
     
