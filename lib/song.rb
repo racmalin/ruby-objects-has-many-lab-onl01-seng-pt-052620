@@ -8,7 +8,11 @@ class Song
     # @artist = artist
     @@all << self
   end
-
+ 
+  def self.all
+    @@all
+  end
+ 
   def artist_name
     if self.artist
       self.artist.name
@@ -17,9 +21,7 @@ class Song
     end
   end
 
-  def self.all
-    @@all
-  end
+
 end
 
 
