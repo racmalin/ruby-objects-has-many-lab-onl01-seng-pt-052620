@@ -22,7 +22,7 @@ end
   end
 
 def add_post_by_title(post)
-  new_post = Post.title
+  new_post = post.title
   new_post.author = self
 end
 
