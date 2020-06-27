@@ -23,6 +23,7 @@ end
 
 def add_post_by_title(name)
   new_post = Post.title
+  new_post.author = self
 end
 
   def self.post_count
